@@ -1,12 +1,19 @@
 
 #! By HookSander
 
+class Weapons :
+    """All weapons"""
+
+    def __init__ (self, name, damage) :
+        self.name = name
+        self.damage = damage
+    
 
 
 class Character :
     """Define a character"""
 
-    def __init__ (self, name, weapons="fist", lifePoint=100, damage=5) :
+    def __init__ (self, name, weapons, lifePoint=100, damage=5) :
         
         self.name = name
         self.lifePoint = lifePoint
@@ -35,4 +42,4 @@ class Character :
         return "L'arme équipée est : {}".format(self.weapons)
 
 
-def 
+def player1() 
