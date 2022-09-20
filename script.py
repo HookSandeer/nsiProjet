@@ -40,6 +40,3 @@ class Character :
     
     def getCurrentWeapons(self) :
         return "L'arme équipée est : {}".format(self.weapons)
-
-
-def player1() 
