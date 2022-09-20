@@ -1,2 +1,4 @@
-# nsiProjet
-Projet de NSI en groupe, jeu de rôle
+# Projet NSI
+
+**Programation**orientée**objet**
+
