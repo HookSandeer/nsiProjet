@@ -43,7 +43,7 @@ def begin() :
         a = randomNum(), b=randomNum()
         listeCalc = [a, b, a*b]
         res = eval(input("Combien font {} x {}".format(listeCalc[0], listeCalc[1])))
-        if res = listeCalc[2] :
+        if res == listeCalc[2] :
             return True
         else :
             return False
