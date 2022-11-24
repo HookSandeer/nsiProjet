@@ -2,7 +2,7 @@
 **Programation Orientée Objet**
 
 ## INFORMATION :
-> Version console en fichier .py (python) et .exe (executable windows)
+> Version console en fichier .py (python) et .exe (executable windows / Utilisation de Pyinstaller pour la création du fichier .exe)
 > Information du projet en affichage propre disponible avec ce [lien](https://github.com/HookSandeer/nsiProjet/blob/main/README.md)
 > Futur interface graphique en tkinter (En développement...)
 > Shéma de l'histoire disponible [ici]()
