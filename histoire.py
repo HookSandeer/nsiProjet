@@ -94,10 +94,10 @@ def attack() :
         for i in range(5) :
             var = input("Plus que {} fois ...".format(5-(i+1)))
         time2 = time.time()
-        if time1 - time2 <= 3 :
+        if time2 - time1 <= 3 :
             endLoop = True
             animateText("\nBien joué !!")
-        else :
+        if time2 - time1 > 3 :
             animateText("\nPas assez rapide !! Essaye a nouveau...\n")
 
 def avoid() :
@@ -119,7 +119,7 @@ def avoid() :
 
 
 animateText("Veuillez entrer votre Nom : ") 
-player = create(input())    # Création du personnage controlé par le joueur
+player = create(input(""))    # Création du personnage controlé par le joueur
 monsterAfterFall = Character("Exterminator", healpoint=100, weapons="Hache", damage=100)    # Création du boss 1
 bigBoss = Character("TERMINATOR", healpoint=100, weapons="Spectre du grand Magicien", damage=100, objet="Relique Magique") # Création du boss 2
 
@@ -174,7 +174,7 @@ displayInfo(player) #Affiche les infos du joueur
 animateText(introNext)
 animateText(question)
 
-userChoice1 = eval(input()) # 1 ou 2 suivant le choix du joueur
+userChoice1 = eval(input("")) # 1 ou 2 suivant le choix du joueur
 if userChoice1 == 1 :   #Parcours avec l'épée ...
     animateText(chooseSword)
     animateText("Vous venez de récupérer une Epée qui inflige 50 de dégats !")
@@ -253,6 +253,6 @@ if userChoice1 == 2 :   # Choix défensif
     
     
 
-time.sleep(2)
+time.sleep(5)
 var = input("Appuyer sur entrer pour quitter le programme")
 exit()
