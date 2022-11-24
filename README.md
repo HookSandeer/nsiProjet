@@ -1,20 +1,30 @@
 # Projet NSI
-
-
 **Programation Orientée Objet**
 
+## INFORMATION :
+> Version console en fichier .py (python) et .exe (executable windows)
+> Information du projet en affichage propre disponible avec ce [lien](https://github.com/HookSandeer/nsiProjet/blob/main/README.md)
+> Futur interface graphique en tkinter (En développement...)
+> Shéma de l'histoire disponible [ici]()
+> Pas eu le temps de renforcer le programme donc si erreur d'entrer de l'utilisateur => Plantage...
 # Cahier des charges :
 </br>
 
-## Objectif : Permet a deux joueurs équipier d'affronter pendant des manches de tour par tour deux robots.
-**La première équipe qui élimine l'autre remporte la victoire !**
-
+## Objectif : Réussir a récupérer une relique Magique afin de sauver la Terre.
+**Pour y parvenir, tu vas devoir vaincre les monstres qui t'en empecheront !!!**
 > # Objectif de déroulement de la partie :
-> Les deux joueurs choisissent un pseudo pour les personnages, et une arme leur est attribué automatiquement de façon aléatoire.
->> _Ils devront au fil de la partie améliorer leur niveaux afin d'augmenter la précision et les dommages de leurs armes._
->Les deux robots vont eux avoir un niveau fixe, sans amélioration possible.
->### Lancement de la partie :
-> Le joueur 1 choisit un des robots a attaquer, et remporte des points si l'attaque est réussi.
-> Le joueur 2 fait la même chose
-> Le robot 1 va choisir un joueur a attaquer, et le robot 2 va faire de même
->> _Les robots vont préférer attaquer les joueurs avec le moins de point de vie._
+> Le joueur choisit le nom qu'il souhaite utiliser durant la partie.
+>> _Le joueur va devoir faire des choix qui changeront l'histoire. Réfléchisser bien !_
+> 2 Monstre sont créés par le programme.
+> # Une fois que le joueur a obtenu la relique Magique, la partie s'arrete et c'est une victoire
+</br>
+</br>
+
+### Spécification technique et réalisation
+> Tout ce jeu de choix a été conçu en programation orienté objet.
+> La classe Character permet de créer a la fois le joueur ainsi que les deux monstres
+> Les méthodes de la class ont pour objectif de récupérer les données d'un des personnages, ainsi que de modifier des valeurs tel que :
+>> Leur points de vie
+>> Leur arme
+>> Les objets en leur possession
+> Durant tout le programme, dès qu'une information tel qu'un nom ou alors un nombre de point de vie est nécessaire, les méthodes de la classe sont utilisé
