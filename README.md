@@ -14,7 +14,7 @@
 **Pour y parvenir, tu vas devoir vaincre les monstres qui t'en empecheront !!!**
 > # Objectif de déroulement de la partie :
 > Le joueur choisit le nom qu'il souhaite utiliser durant la partie.
->> _Le joueur va devoir faire des choix qui changeront l'histoire. Réfléchisser bien !_
+>> _Le joueur va devoir faire des choix qui changeront l'histoire. Réfléchisser bien !_</br>
 > 2 Monstre sont créés par le programme.
 > # Une fois que le joueur a obtenu la relique Magique, la partie s'arrete et c'est une victoire
 </br>
