@@ -2,6 +2,29 @@
 
 /* font-family: 'Indie Flower', cursive;*/
 
+html{
+    background-color: #090979;
+}
+
 .intro{
     font-family: 'Indie Flower', cursive;
+    color: white;
 }
+
+.title{
+    font-size: 90px;
+}
+
+.info{
+    font-size: 50px;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.content{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+
